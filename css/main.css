@@ -1030,7 +1030,7 @@ form .main_block input.open-info-about-app[type="email"] {
 /* line 551, ../sass/_partials/_layout/_page.scss */
 
 .item .item-info .team-work {
-    display: none;
+    display: block;
 }
 /* line 555, ../sass/_partials/_layout/_page.scss */
 
