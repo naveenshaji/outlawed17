@@ -45,7 +45,7 @@
 
     <!-- BACKGROUND 1 slider-->
     <ul class="rslides">
-        <li><img src="img/1.jpg" alt="">
+        <li><img id="bg-hotswap" style="width:200%;" src="img/bg/home.jpg" alt="">
         </li>
         <!--
         <li><img src="img/slider2.jpg" alt="">
@@ -1154,9 +1154,19 @@
 
             var objCenterX = objLeft + $("body").width() / 2;
             var objCenterY = objTop + $("body").height() / 2;
-            console.log((event.pageX - objCenterX));
+            //            console.log((event.pageX - objCenterX));
             $('#skyline').css('transform', 'translateX(' + -(event.pageX - objCenterX) + 'px)');
-            $('#rslides1_s0').css('transform', 'translateX(' + (event.pageX - objCenterX) / 50 + 'px)')
+            $('#bg-hotswap').css('transform', 'translateX(' + (event.pageX - objCenterX) / 50 + 'px)')
+        });
+
+        $('.navbar a').on('click', function () {
+            //            console.log('x');
+            $('#bg-hotswap').fadeOut(500).fadeIn(500);
+            setTimeout(function () {
+                $('#bg-hotswap').attr('src', 'img/bg/' + location.hash.slice(1) + '.jpg');
+            }, 500);
+
+
         });
     </script>
     <script src="js/modernizr.custom.js"></script>
