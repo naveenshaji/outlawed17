@@ -116,11 +116,17 @@ var PageTransitions = (function () {
             }
         );
 
+
+
+
         $('.close-this').on(
             'click',
             function (e) {
                 if ($(this).parent().parent().hasClass('info-about-app')) {
+
                     $('.about-app').removeClass('hide');
+
+
                     $('body').keyup(
                         function (e) {
                             if (e.keyCode === 37) {
