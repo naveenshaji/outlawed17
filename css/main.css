@@ -2231,7 +2231,7 @@ form input[type="text"] {
     border-bottom: 2px solid #4c4c4c;
     padding: 5px 0;
     letter-spacing: 1px;
-    margin: 0 0 46px 0;
+    margin: 0 0 26px 0;
     will-change: border-bottom-color, color;
     -webkit-transition: border-bottom-color .3s ease, color .3s ease;
     transition: border-bottom-color .3s ease, color .3s ease;
