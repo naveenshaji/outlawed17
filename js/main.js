@@ -3500,7 +3500,7 @@ function initDaysLeft(block, options) {
                     numberFont: '30px Abel', // font
                     textColor: 'rgba(255,255,255,0.5)',
                     textFont: '18px Abel',
-                    data: "February 03, 2017", // YOUR DATA
+                    data: "March 10, 2017", // YOUR DATA
                     text: 'DAYS LEFT', // text
                     lineColor: 'rgba(255,255,255,0.5)'
                 }
