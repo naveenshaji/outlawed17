@@ -2116,7 +2116,7 @@ form .say-hello input[type="email"] {
     /* line 247, ../sass/_partials/_layout/_devWidth.scss */
     
     .main_block .open-info-about-app {
-        display: none;
+/*        display: none;*/
     }
     /* line 251, ../sass/_partials/_layout/_devWidth.scss */
     
@@ -2301,7 +2301,8 @@ form input[type="checkbox"],
 form input[type="radio"] {
     position: relative;
     margin: 5px 6px 5px 6px;
-    visibility: hidden;
+    appearance: none;
+    -webkit-appearance: none;
 }
 /* line 84, ../sass/_partials/_typography.scss */
 
@@ -4395,4 +4396,25 @@ form .inverse input[type="email"]:active,
 .top-logotip img {
     width: 100%;
     height: auto;
+}
+
+.chk-label input[type='checkbox']:after {
+    content: ' ';
+    padding: 5px;
+    background: rgba(255,255,255,0.3);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.chk-label input[type='checkbox']:focus {
+    outline: none !important;
+}
+.chk-label {
+    font-weight: 400;
+}
+
+.chk-label input[type='checkbox']:checked:after {
+    background: rgba(255,255,255,1);
+}
+.checkboxes {
+    text-align: left;
 }
