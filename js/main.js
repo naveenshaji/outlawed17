@@ -3484,7 +3484,7 @@ function initDaysLeft(block, options) {
                     numberFont: '30px Abel', // font
                     textColor: 'rgba(0,0,0,0.5)',
                     textFont: '18px Abel',
-                    data: "August 04, 2016", // YOUR DATA
+                    data: "February 08, 2019", // YOUR DATA
                     text: 'DAYS LEFT', // text
                     lineColor: 'rgba(0,0,0,0.5)'
                 }
@@ -3500,7 +3500,7 @@ function initDaysLeft(block, options) {
                     numberFont: '30px Abel', // font
                     textColor: 'rgba(255,255,255,0.5)',
                     textFont: '18px Abel',
-                    data: "March 10, 2017", // YOUR DATA
+                    data: "February 08, 2019", // YOUR DATA
                     text: 'DAYS LEFT', // text
                     lineColor: 'rgba(255,255,255,0.5)'
                 }

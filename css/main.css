@@ -4418,3 +4418,6 @@ form .inverse input[type="email"]:active,
 .checkboxes {
     text-align: left;
 }
+.nolink::after {
+    display: none;
+}
